@@ -8,6 +8,11 @@
     ],
     "redirects": [
       { "source": "/", "destination": "https://flutter.dev/", "type":301 },
+      { "source": "/showcase", "destination": "https://flutter.dev/showcase", "type":301 },
+      { "source": "/community", "destination": "https://flutter.dev/community", "type":301 },
+      { "source": "/docs", "destination": "https://flutter.dev/docs", "type":301 },
+      { "source": "/tos", "destination": "https://flutter.dev/tos", "type":301 },
+      { "source": "/security", "destination": "https://flutter.dev/security", "type":301 },
       { "source": "/create", "destination": "https://flutter.dev/create", "type": 301 },
       { "source": "/style-guide*", "destination": "https://github.com/flutter/flutter/wiki/Style-guide-for-Flutter-repo", "type": 301 },
       { "source": "/chat", "destination": "https://gitter.im/flutter/flutter", "type": 302 },
