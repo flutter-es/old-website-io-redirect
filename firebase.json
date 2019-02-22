@@ -7,9 +7,61 @@
       "**/node_modules/**"
     ],
     "redirects": [
-      { "source": "/", "destination": "https://flutter.dev/", "type":301 },
-      { "source": "/:first*", "destination": "https://flutter.dev/:first", "type":301 },
-      { "source": "/:first/:second", "destination": "https://flutter.dev/:first/:second", "type":301 },
+      {
+        "source": "/",
+        "destination": "https://flutter.dev/",
+        "type": 301
+      },
+      {
+        "source": "/:a*",
+        "destination": "https://flutter.dev/:a",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b*",
+        "destination": "https://flutter.dev/:a/:b",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c*",
+        "destination": "https://flutter.dev/:a/:b/:c",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e/:f*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e/:f",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e/:f/:g*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e/:f/:g",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e/:f/:g/:h*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e/:f/:g/:h",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e/:f/:g/:h/:i*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e/:f/:g/:h/:i",
+        "type": 301
+      },
+      {
+        "source": "/:a/:b/:c/:d/:e/:f/:g/:h/:i/:j*",
+        "destination": "https://flutter.dev/:a/:b/:c/:d/:e/:f/:g/:h/:i/:j",
+        "type": 301
+      }
     ]
   }
 }
