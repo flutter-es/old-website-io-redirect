@@ -11,8 +11,8 @@ firebase login
 firebase deploy
 ```
 
-Assuming that you have access permissions to the
-`sweltering-fire-2088` Firebase project.
+Assuming that you have access permissions to the Firebase project to 
+to forward.
 
 ## Verifying that we redirect correctly
 
